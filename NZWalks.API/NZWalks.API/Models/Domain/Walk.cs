@@ -5,11 +5,11 @@
 		public Guid Id { get; set; }		
 		public string Name { get; set; }	
 		public double Length { get; set; }
-		public Guid RegiondId { get; set; }
-		public Guid WalkDiffcultyId { get; set; }
+		public Guid RegionId { get; set; }
+		public Guid WalkDifficultyId { get; set; }
 
 		// NavigationProperty
 		public Region Region { get; set; }
-		public WalkDiffculty WalkDiffculty { get; set; }
+		public WalkDifficulty WalkDifficulty { get; set; }
 	}
 }
